@@ -1,2 +1,2 @@
 # Teste-Naver
-Um site que realiza um CRUD usando a api disponibilizada pela naver
+Um site feito em react que realiza um CRUD usando a api disponibilizada pela naver
