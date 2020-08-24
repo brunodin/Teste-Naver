@@ -1,0 +1,39 @@
+section.modal-addremove .modelo-modal{
+    height: 50%;
+    min-height: 480px;
+    max-width: 750px;
+    width: 80%;
+    margin-top: 100px;
+}
+section.modal-addremove{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section.modal-addremove .titulo{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+section.modal-addremove i{
+    font-size: 1.5rem;
+}
+section.modal-addremove .botao{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.botao .btn-custom{
+    margin-top: 2%;
+    width: 30%;
+    background-color: rgba(29, 29, 29, 0.979);
+    border-radius: 0;
+}
+section.modal-addremove .form-group{
+    margin-top: 10px;
+}
+@media(max-width: 584px){
+    .botao .btn-custom{
+        width: 100%;
+    }
+}

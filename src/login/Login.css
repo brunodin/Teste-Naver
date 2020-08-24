@@ -1,0 +1,47 @@
+.centralizar{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.caixa{
+    height: 40vh;
+    max-width: 460px;
+    min-width: 290px;
+    max-height: 970px;
+    min-height: 380px;
+    width: 40%;
+    border: 1px solid black;
+}
+
+label{
+    font-weight: bold;
+}
+
+#btn-entrar{
+    margin-top: 5%;
+    width: 100%;
+    background-color: rgba(29, 29, 29, 0.979);
+}
+
+#btn-entrar>span{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.932);
+}
+
+.form-control{
+    border: 1px solid black;
+    border-radius: 0%;
+}
+div.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.logo > img{
+    margin: 25px 30px 25px 30px;
+}

@@ -1,0 +1,13 @@
+
+header .letra{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+header .logo-naver{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
